@@ -17,7 +17,7 @@ São agrupamentos de **8 bits**.
 
 ### **Segue um esquema de conversão entre os múltiplos:**
 
-![Descrição da imagem](images/images.png)
+![Descrição da imagem](images/tabela-byte.png)
 
 # SISTEMA BINÁRIO, DECIMAL E HEXADECIMAL
 - Os sistemas tem suas bases (quantidade de símbolos que são usados para representar todos as quantidades possíveis a partir de sua reorganização).
@@ -51,10 +51,12 @@ Usado para gerenciar a forma como os caracteres Unicode são armazenados em byte
 ### Fluxo de Funcionamento 
 Caractere → Unicode → UTF-8 → Bytes → Bits
 
-
 ## **DICAS:**
 - As conversões mais usadas são (domine elas e você vai conseguir suprir 90% da demanda do mercado):
     - Binário <-> Hexadecimal
     - Binário <-> Decimal
 
-    
+## Relação com CYBER SECURITY
+- Ferramentas normalmente exibem tudo em hexadecimais
+- Tudo dentro do computador é analisado pelo profissional de cyber security em bytes/bits
+- Os conceitos de bits, bytes, binário, hexadecimal e codificação de caracteres serão utilizados constantemente nos próximos módulos. Eles são a base para entender redes, arquitetura de computadores, análise de memória, engenharia reversa, forense digital e exploração de vulnerabilidades.
