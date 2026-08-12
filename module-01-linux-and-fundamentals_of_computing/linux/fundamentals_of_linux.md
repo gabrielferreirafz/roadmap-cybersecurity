@@ -8,10 +8,9 @@
     - Tudo é arquivo (quase tudo é representado como arquivo)
     - Automatize tudo (se uma tarefa pode ser repetida ela pode ser automatizada)
 ## Estrutura do Sistema de Arquivos 
-O **Linux** possui uma única árvore de diretórios, cuja raiz é representada por:
+O **Linux** possui uma única árvore de diretórios (raiz do sistema), cuja raiz é representada por:
 
     /
-
 #### Segue alguns dos diretórios mais:
     - /home → arquivos dos usuários.
     - /etc → configurações do sistema.
@@ -21,5 +20,12 @@ O **Linux** possui uma única árvore de diretórios, cuja raiz é representada 
     - /boot → inicialização do sistema.
     - /dev → dispositivos.
     - /proc → informações do kernel e processos.
-
 ## Terminal
+    Programa que permite enviar comandos ao sistema operacional
+Existem uma diferença entre Terminal e Shell importante de se saber:
+- **Terminal:** é o programa onde você digita os comandos para o SO.
+- **Shell:** é o programa que interpreta os comandos digitados no terminal. 
+#### Caminho
+    É o endereço de um arquivo/diretório dentro do sistema.
+- **Caminho absoluto:** é o endereço que aponta sempre para o mesmo local (endereço exato).
+- **Caminho relativo:** É um caminho calculado a partir do diretório onde você está atualmente.

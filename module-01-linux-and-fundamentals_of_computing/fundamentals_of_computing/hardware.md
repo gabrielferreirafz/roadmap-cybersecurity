@@ -76,3 +76,16 @@ Fluxo de funcionamento:
     - **Barramentos de Dados**: Transportam dados.
     - **Barramentos de Endereço**: Transportam a localização das instruções/dados.
     - **Barramentos de Controle**: Transportam os comandos que serão feitos na memória.
+****
+## Comandos de checagem do Sistema
+    São comandos que informam algumas informações importantes a respeito do hardware (esses comandos são específicos do Linux, mas todo SO tem seus próprios comandos de checagem).
+### lscpu
+    Comando que exibe todas as informações do hardware do sistema.
+Algumas informações importantes para um **Cyber Security**:
+    Vulnerabilities -> informa as vulnerabilidades da CPU (not affected, vulnerable and mitigation)
+    Architecture -> informa a quantidade de bits que o SO processa por vez
+    Virtualization -> informa se CPU suporta virtualização e detectar se você está dentro de um VM
+### free -h
+    Comando que exibe todas as informações de memória RAM
+### df -h
+    Comando que exibe todas as informações a respeito da memória em disco (HD/SSD)

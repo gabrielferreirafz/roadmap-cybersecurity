@@ -25,4 +25,3 @@ KERNEL SPACE
 ### Scheduler
        É um componente do kernel responsável por decidir qual processo ou thread utilizará a CPU, em qual núcleo e por quanto tempo.
 - **Time Slice**: É o pequeno intervalo de tempo que o Scheduler concede a um processo ou thread para utilizar a CPU antes de passar a vez para outro. 
-    - O time slice cria uma espécie de fila onde cada programa tem um tempo para usar a CPU, assim passando a vez e repetindo o ciclo
