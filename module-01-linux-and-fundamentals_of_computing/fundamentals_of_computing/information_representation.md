@@ -35,6 +35,28 @@ São agrupamentos de **8 bits**.
 ### **Tabela de valores/conversão entre sistemas:**
 
 ![Descrição da imagem](images/sistemas.png)
+## Número Octal
+    São um grupo de 3 bits que representam as permissões de um grupo relacionadas a um arquivo/diretório (rwx). Se um grupo possuir determinada função esse bit assume 1, caso contrário assume 0.
+    r -> read
+    w -> write
+    x -> xexecute
+
+Os grupos são:
+- dono
+- grupo
+- outros
+
+        exemplo:
+        rwx     r-x     r--
+        111     101     100
+         ↓       ↓       ↓
+         7       5       4
+        normalmente no terminal é representado da seguinte forma:
+        drwxr-xr-x 2 gabriel_ferreira gabriel_ferreira 4096 Aug 9 15:30 backup
+        caractere: d  r w x  r - x  r - x
+                   │ └─────┘└─────┘└─────┘
+                   │   dono  grupo  outros
+                 tipo do arquivo (d= diretório; - = arquivo comum; l= link)
 
 # ASCII, Unicode e UTF-8
 ### ASCII
