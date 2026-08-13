@@ -37,3 +37,17 @@ Comandos:
     locate -> Localizar (guarda em um banco de dados todos os caminhos de cada arquivo e diretório, assim localiza nesse banco e entrega o caminho da procura) +rápido
     
     grep -> global regular expression print (procura textos/padrões dentro de arquivos, muito usado para localizar dentro de arquivos as mesmas palavras)
+
+    which -> localiza o caminho de um comando do linux
+## Produtividade no Terminal
+    alias -> usado para criar um comando, facilitar o uso 
+    ex:. alias (abreviação)="comando"
+         no próximo uso não é necessário digitar o comando, somente a abreviação
+    - alias isolado mostra todos os alias criados pelo usuário
+    - alias criados duram apenas durante a sessão, para que persistam é necessário salva-los em arquivo
+
+    history -> mostra o histórico de todos os comandos usados na sessão
+    
+    !! -> executa novamente o ultimo comando executado
+
+    Ctrl R -> usado para pesquisar um comando já executado no history
