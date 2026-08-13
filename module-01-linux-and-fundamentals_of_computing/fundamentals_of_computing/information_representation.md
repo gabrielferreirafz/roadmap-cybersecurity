@@ -50,7 +50,7 @@ Os grupos são:
         rwx     r-x     r--
         111     101     100
          ↓       ↓       ↓
-         7       5       4
+         7       5       4   (r=4; w=2; x=1. Cada um é um bit)
         normalmente no terminal é representado da seguinte forma:
         drwxr-xr-x 2 gabriel_ferreira gabriel_ferreira 4096 Aug 9 15:30 backup
         caractere: d  r w x  r - x  r - x
